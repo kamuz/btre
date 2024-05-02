@@ -1,6 +1,6 @@
 from django.db import models
 from datetime import datetime
-form realtors.models import Realtor
+from realtors.models import Realtor
 
 class Listing(models.Model):
     realtor = models.ForeignKey(Realtor, on_delete=models.DO_NOTHING)
