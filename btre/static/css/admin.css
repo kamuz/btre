@@ -1,0 +1,14 @@
+#header {
+	color: #fff;
+}
+
+#header #site-name a{
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+#header #site-name a img {
+	height: 50px;
+	margin-right: 10px;
+}
